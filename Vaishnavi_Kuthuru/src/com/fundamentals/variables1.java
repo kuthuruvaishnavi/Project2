@@ -52,9 +52,11 @@ public class variables1 {
 		System.out.println(i);
 		System.out.println(n);
 
-		// Accessing
+		// Accessing the var keyword literals
 		System.out.println(id);
 		System.out.println(name);
+		
+		System.out.println("Main Method Ended!");
 
 	}
 
