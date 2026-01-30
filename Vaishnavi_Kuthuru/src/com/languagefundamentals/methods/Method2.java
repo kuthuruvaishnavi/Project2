@@ -35,6 +35,7 @@ public class Method2 {
 		Method2 m1 = new Method2();
 		m1.addition();
 		m1.subtraction();
+		m1.division();
 		m1.modulus();
 		
 		System.out.println("Main method Ended!");
