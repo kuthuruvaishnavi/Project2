@@ -9,15 +9,17 @@ public class Method4 {
 		System.out.println("Main method started!");
 		Method4 m = new Method4();
 		
-		Scanner sc = new Scanner(System.in);
+		Scanner s = new Scanner(System.in);
 		System.out.println("Enter your first name:");
-		String fname = sc.next();
+		String fname = s.next();
 		
 		System.out.println("Enter your last name :");
-		String lname = sc.next();
+		String lname = s.next();
 		
 		//Calling method by passing the values : Call by values
-		m.getName(fname, lname);		
+		m.getName(fname, lname);
+		s.close();
+		System.out.println("Main method ended!");
 		
 	}
 	void getName(String fname, String lname) {

@@ -49,16 +49,21 @@ public class method3 {
         int j = s.nextInt();
 
         // method calls
-        m1.addition(i, j);
-        m1.subtraction(i, j);        // int → long (implicit)
-        m1.multiplication(i, j);     // int → float & double
+        m1.addition(i, j);            // int → long (implicit)
+        m1.subtraction(i, j);        
+        m1.multiplication(i, j);     
         m1.division(i, j);
         m1.modulus(i, j);
 
-        System.out.println(a); // default value = 0
-        System.out.println(b); // value = 10
+        System.out.println("a :" + a); // default value = 0
+        System.out.println("b :" + b); // value = 10
 
         System.out.println("Main method ended!");
+        s.close();
+
+
     }
+    
+
 }
 
