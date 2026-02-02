@@ -38,7 +38,7 @@ public class Method7 {
 	}
 	
 	double getCircle(double r) {
-		double Cir = 0.5 * r * r;
+		double Cir = Math.PI* r * r;
 		return Cir;
 	}
 	
