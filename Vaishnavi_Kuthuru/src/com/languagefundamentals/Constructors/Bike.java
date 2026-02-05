@@ -8,7 +8,7 @@ class Vehicle {
 	String Brand;
 	double Price;
 	
-	//This block runs directly main method because it is Static
+	//This block runs directly before main method because it is Static
 	static {
 		System.out.println("Hello this is static from vehicle!");
 	}

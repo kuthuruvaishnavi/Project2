@@ -23,20 +23,20 @@ public class Employee2 {
 	}
 	//Constructor -3
 	Employee2(int eid, String ename) {
-		this(eid);
 		System.out.println("two arg Contructor called");
+		this(eid);
 		this.ename = ename;
 	}
 	//Constructor -4
 	Employee2(int eid, String ename, double salary) {
-		this(eid,ename);
 		System.out.println("three arg Constructor called");
+		this(eid,ename);
 		this.salary = salary;
 	}
 	//Constructor -5
 	Employee2(int eid, String ename, double salary, int age) {
-		this(eid,ename,salary);
 		System.out.println("Four arg Constructor called");
+		this(eid,ename,salary);
 		this.age = age;
 	}
 
